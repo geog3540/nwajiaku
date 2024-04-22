@@ -116,7 +116,7 @@
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	// TODO: Change the variables below to customize the small multiples interface for your data
-	var polygonJSONFile = 'data/caliCounties.geojson'
+	var polygonJSONFile = 'data/calicounties.geojson'
 	// change the projection if needed *d3.geoAlbers()*
 	var projection = d3.geoAlbers();
 	var widthheightRatio = 0.8;
@@ -127,7 +127,7 @@
 	var legendX = 0.84, legendY = 0.5
 
 	// id attribute and the name attribute to be used in the tooltip
-	var idAttribute = 'COUNTYFP', nameAttribute = 'NAME';
+	var idAttribute = 'COUNTYFP', nameAttribute = 'County';
 
 	// Find the abbreviations of color names from https://colorbrewer2.org/
 	var colors =  colorbrewer.GnBu;
